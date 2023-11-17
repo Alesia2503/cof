@@ -486,12 +486,15 @@ html {
   display: block;
   float: left;
   padding: 0 8px 0 0;
-  stroke: #665F55;
-  fill:#665F55;
+  
   transition: 1s;
 }
+.mobile-flex_btn-img path {
+  stroke: #665F55;
+  fill:#665F55;
+}
 
-.mobile-flex_btn:hover .mobile-flex_btn-img{
+.mobile-flex_btn:hover .mobile-flex_btn-img path{
   stroke: #E1D4C9;
   fill:#E1D4C9;
 }
