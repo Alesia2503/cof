@@ -490,8 +490,8 @@ html {
   transition: 1s;
 }
 .mobile-flex_btn-img path {
-  stroke: #665F55;
-  fill:#665F55;
+  stroke: #403F3D;
+  fill:#403F3D;
 }
 
 .mobile-flex_btn:hover .mobile-flex_btn-img path {
