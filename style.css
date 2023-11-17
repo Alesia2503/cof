@@ -59,6 +59,7 @@ html {
   content: "";
   display: block;
   position: absolute;
+  
   background: #403F3D;
   height: 3px;
   width: 0;
@@ -71,6 +72,8 @@ html {
 
 .header-nav-menu_link:hover:after {
   width: 100%;
+  background: #665F55;
+  height: 2px;
   opacity: 1;
 }
 
@@ -666,6 +669,7 @@ html {
   color: #E1D4C9;
   /* border: none; */
   border: 1px solid #665F55;
+  cursor: default;
 }
 
 
@@ -690,6 +694,7 @@ html {
   border-radius: 40px;
   border: 1px solid #C1B6AD;
   cursor: pointer;
+  transition: 1s;
 }
 
 .menu-img_wrap {
@@ -698,11 +703,8 @@ html {
   display: inline-block;
   overflow: hidden;
   border-radius: 40px;
-}
-
-
-
-
+  /* transition: 1s;*/
+} 
 
 
 .menu-grid_img {
@@ -711,7 +713,7 @@ html {
   display: block;
   transform: scale(1.1);
 }
-.menu-grid_img:hover {
+.menu-grid_item:hover .menu-grid_img {
   border-radius: 40px;
   transform: scale(1.0);
 }
